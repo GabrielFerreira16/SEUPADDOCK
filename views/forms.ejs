@@ -1,0 +1,86 @@
+<%- include('./partials/header') %>
+  <!DOCTYPE html>
+  <html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./stylesheets/style.css">
+    <link rel="stylesheet" href="./stylesheets/navbar.css">
+  <title>Formulário</title>
+<body >
+  <div class="contentForm">
+    <h2> Formulário</h2>
+  </div>
+  <div class="contentbox">
+  <form action="/forms/submit" method="post"> 
+      <div class="form-name">
+        <label for="nome">Nome Completo</label>
+        <input type="text" id="nome" name="nome" required>
+      </div>
+    <div class="form-box">
+<p>Qual equipe você mais gostou e torceria na Formula 1?</p>
+    <input type="radio" id="Red Bull" name="equipes" value="Red Bull" required>
+    <label for="Red Bull">Red Bull Racing</label>
+
+    <input type="radio" id="mcLaren" name="equipes" value="mcLaren" >
+    <label for="mcLaren">McLaren</label>
+
+    <input type="radio" id="Ferrari" name="equipes" value="Ferrari" >
+    <label for="Ferrari">Ferrari</label>
+    
+    <input type="radio" id="Mercedes" name="equipes" value="Mercedes" >
+    <label for="Mercedes">Mercedes</label>
+
+    <input type="radio" id="Aston Martin" name="equipes" value="Aston Martin" >
+    <label for="Aston Martin">Aston Martin</label>
+
+    <input type="radio" id="RB" name="equipes" value="RB" >
+    <label for="RB">RB</label>
+
+    <input type="radio" id="Haas" name="equipes" value="Haas" >
+    <label for="Haas">Haas</label>
+
+    <input type="radio" id="alpine" name="equipes" value="alpine" >
+    <label for="alpine">Alpine</label>
+
+    <input type="radio" id="Williams" name="equipes" value="Williams" >
+    <label for="Williams">Williams</label>
+
+    <input type="radio" id="Sauber" name="equipes" value="Sauber" >
+    <label for="Sauber">Sauber</label>
+
+<p>Qual Grande Prêmio da Formula 1 mais te interessou?</p>
+    <input type="radio" id="Suzuka" name="GP" value="Suzuka" required>
+    <label for="Suzuka">Suzuka</label>
+
+    <input type="radio" id="Imola" name="GP" value="Imola">
+    <label for="Imola">Imola</label>
+
+    <input type="radio" id="Monaco" name="GP" value="Monaco">
+    <label for="Monaco">Mônaco </label>
+
+    <input type="radio" id="Silverstone" name="GP" value="Silverstone">
+    <label for="Silverstone">Silverstone</label>
+
+    <input type="radio" id="Spa" name="GP" value="Spa">
+    <label for="Spa">Spa-Francorchamps</label>
+
+    <input type="radio" id="Monza" name="GP" value="Monza">
+    <label for="Monza">Monza</label>
+
+    <input type="radio" id="Spil" name="GP" value="Spil">
+    <label for="Spil">Spielberg</label>
+
+    <input type="radio" id="Montreal" name="GP" value="Montreal">
+    <label for="Montreal">Montreal</label>
+
+    <input type="radio" id="Interlagos" name="GP" value="Interlagos">
+    <label for="Interlagos">Interlagos</label> 
+    
+  </div>
+    <button type="submit" class="submit-send">Enviar</button>
+     </form>
+  </div>
+  <script src="./javascripts/form.js"></script>
+</body>

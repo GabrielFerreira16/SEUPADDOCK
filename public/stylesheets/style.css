@@ -1,0 +1,340 @@
+@import url('https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: #000000;
+}
+
+/*---------- index ----------*/
+main{
+    background-image: linear-gradient(to bottom, transparent 70%, red 96%);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+}
+
+
+img {
+    max-width: 100%; /* Garante que a imagem não ultrapasse a largura do contêiner */
+    height: auto; /* Ajusta automaticamente a altura para manter a proporção */
+    display: block; /* Remove qualquer espaço extra ao redor da imagem */
+    margin: 0 auto; /* Centraliza a imagem horizontalmente */
+}
+
+
+.main-text h2{
+  font-family: 'Times New Roman',Times, sans-serifserif;
+  font-style: serif;
+  display: flex;
+  position: absolute;
+  text-align:center;
+  top: 80%;
+  left: 20%;
+  right: 0%;
+  color: #ffffff;
+  font-size: 3rem;
+}
+
+a img{
+  width:100%;
+  height: 100%;
+  background-position: center;
+}
+a img{
+  width: 60%;
+  height: 60%;
+  background-position: center;
+}
+
+
+/*----------------------footer---------------------- */
+.content {
+  min-height: 100vh; /* Garante que o conteúdo principal ocupe toda a altura da tela */
+  padding-bottom: 100px; /* Espaço suficiente para o footer */
+}
+
+.footer {
+  position: relative;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden; /* Impede que a imagem saia da área do footer */
+}
+
+.footer img {
+  display: block;
+  height: 25px;
+  width: 100%; /* Faz com que a imagem se ajuste à largura do footer */
+  height: auto; /* Mantém a proporção da imagem */
+}
+
+
+/*-----------------------Sobre-----------------------*/
+.contentsobre{
+   background-image: linear-gradient(to bottom, transparent 70%, red 96%);
+  height:100vh;
+    padding: 20px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center; /* Alinha os itens verticalmente */
+  }
+
+  .contentsobre h1 {
+    font-family: "SUSE", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    color: #FFFFFF;
+    margin-bottom: 10px; 
+  }
+
+  .contentsobre p {
+    font-family: "SUSE", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    color: #FFFFFF;
+    font-size: 20px;
+    text-align: center;
+    max-width: 500px;  
+  }
+/*-----------------------Equipes-----------------------*/
+.contentEqp{
+  height: 20vh;
+  padding: 20px; 
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  justify-content: center; /* Alinha os itens verticalmente */
+  }
+
+  .contentEqp h2 {
+    font-family: "SUSE", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    color: #FFFFFF;
+    margin-bottom: 10px; 
+  }
+.image-grid {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+
+.image-grid img {
+  width: 70%;
+  height: 450px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+/*-----------------------GP's-----------------------*/
+.contentGp{
+  height:29vh;
+  padding: 20px; 
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  justify-content: center; /* Alinha os itens verticalmente */
+}
+.contentGp h2 {
+  font-family: "SUSE", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  color: #FFFFFF;
+  margin-bottom: 10px; 
+}
+
+.contentGp p {
+  font-family: "SUSE", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  color: #FFFFFF;
+  font-size: 25px;
+  text-align: center;
+  max-width: 1500px;  
+}
+
+.image-gp {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.image-gp img {
+  width: 60%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 3px;
+}
+
+.image-gp p{
+  font-family: "SUSE", sans-serif;
+  font-weight: 700;
+  margin: 0;
+  padding: 5px;
+  font-size: 16px;
+  color: #ffffff;
+}
+/*-----------------------Formulario-----------------------*/
+.contentForm{
+  height: 29vh;
+  padding: 5px; 
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  justify-content: center;
+}
+.contentForm h2 {
+  font-family: "SUSE", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  color: #FFFFFF;
+  margin-bottom: 10px; 
+}
+.contentbox{
+  height: auto;
+  width: 500px;
+  background: white;
+  border: 2px solid #ffffff;
+  box-sizing: border-box; 
+  padding: 20px;
+  /* adiciona uma sombra para dar profundidade */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  margin: 0 auto; /* Remove a margem superior e inferior */
+  margin-top: -80px; /* Ajusta a margem superior para mover o box para cima */
+  margin-bottom: 40px; /* Ajusta a margem inferior para mover o box para baixo*/
+}
+.form-name{
+  margin-botton: 8px;
+  font-family: "SUSE", sans-serif;
+  padding-bottom: 18px;
+  position: relative;
+}
+}
+.form-name label{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  pointer-events: none;
+
+}
+.form-name input{
+  background: none;
+  border: none;
+  border-bottom: 1px solid #000000;
+  outline: none;
+  font-size: 15px;
+  width: 100%;
+  letter-spacing: 2px;
+}
+.form-box {
+   margin: 0;
+}
+
+.form-box p {
+  font-family: "SUSE", sans-serif;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.form-box input[type="radio"] {
+  margin: 10px;
+  /* adiciona um estilo para esconder o input de rádio padrão */
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  position: absolute;
+  margin: 0;
+}
+
+.form-box label {
+  font-family: "SUSE", sans-serif;
+  display: block;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.form-box label:before {
+  content: "";
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border: 1px solid #000000;
+  border-radius: 70%;
+  margin-right: 10px;
+  box-shadow: 0 0 0 1px #000000;
+  vertical-align: middle;
+}
+
+.form-box input[type="radio"]:checked + label:before {
+  background-color: #000000;
+  background-clip: padding-box;
+  border-radius: 70%;
+  background: radial-gradient(circle closest-side, #000000 60%, #ffffff 70%);
+}
+.submit-send{
+  font-family: "Roboto Mono", monospace;
+  width:20%;
+  height:30px;
+  background-color: black;
+  border: none;
+  border-radius:10px;
+  color: #fff;
+  font-weight: 700;
+  cursor: pointer;
+  outline: none;
+  font-size: 16px;
+  display: block; /* Garante que o botão se comporte como um bloco */
+  margin-left: auto; /* Alinha o botão à direita */
+}
+.submit-send:hover{
+  background-color: #252323;
+}
+/*-----------------------Submit-----------------------*/
+.contentbox1 {
+    margin: 20px;
+    padding: 20px; /* Aumenta o padding para mais espaço interno */
+    background-color: black;
+    border: 2px solid #ff0000;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
+    height: 70vh;
+    position: relative;
+}
+
+.contentbox1 h1 {
+    font-family: "SUSE", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    color: #FFFFFF;
+    margin: 0 0 20px 0; /* Remove o margin-bottom padrão e adiciona mais espaço */
+  }
+.button {
+    display: inline-block; /* Permite usar padding e margin corretamente */
+    padding: 10px 15px;
+    background-color: #ff0000;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+  }
+.button:hover {
+    background-color: #902c2c; /* Altera a cor ao passar o mouse */
+  }
